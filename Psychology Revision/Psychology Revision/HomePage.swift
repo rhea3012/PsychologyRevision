@@ -40,6 +40,18 @@ All multiple choice questions will be automatically marked. For the harder quest
 //Creating Variables for 'Continue' Button
 	let button = ["Continue"]
     @State public var buttonContinue: Int?
+	
+	private var allTopics: [Bool] {
+		[setMemory, setSocialInfluence, setApproaches, setPsychopathology, setBiopsychology, setAttachment, setIssuesandDebates, setSchizophrenia, setResearchMethods]
+	}
+	
+	private var isAtLeastOneTopicSelected: Bool {
+		allTopics.contains { $0 }
+	}
+	
+	private var isFormValid: Bool {
+		isAtLeastOneTopicSelected && buttonSelected != nil
+	}
 
 	
 	var body: some View {
@@ -201,9 +213,9 @@ All multiple choice questions will be automatically marked. For the harder quest
 						.foregroundColor(.white)
 						.foregroundStyle(.background)
 						.background(2 == button ? Color.primary: Color.secondary)
-						.clipShape(Capsule())}}
 				
 				
+						.clipShape(Capsule())}}.disabled(!isFormValid)
 				
 			}
 			
