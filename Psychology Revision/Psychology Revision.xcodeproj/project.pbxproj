@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A645E2127E9EE44005C65C9 /* secondView.swift */; };
+		7A9E83E827D0D1DD004E1395 /* Psychology_RevisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */; };
+		7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E927D0D1DD004E1395 /* HomePage.swift */; };
+		7A9E83EC27D0D1DD004E1395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */; };
+		7A9E83EF27D0D1DD004E1395 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E83EE27D0D1DD004E1395 /* Preview Assets.xcassets */; };
+		7A9E83F927D0D1DD004E1395 /* Psychology_RevisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83F827D0D1DD004E1395 /* Psychology_RevisionTests.swift */; };
+		7A9E840327D0D1DD004E1395 /* Psychology_RevisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */; };
+		7A9E840527D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */; };
+		7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE006B527E0D4F300567275 /* ResearchMethods.swift */; };
+		7AE006B827E0DE4D00567275 /* RMQuestions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7AE006B727E0DE4D00567275 /* RMQuestions.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A9E83F527D0D1DD004E1395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9E83DC27D0D1DD004E1395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9E83E327D0D1DD004E1395;
+			remoteInfo = "Psychology Revision";
+		};
+		7A9E83FF27D0D1DD004E1395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9E83DC27D0D1DD004E1395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9E83E327D0D1DD004E1395;
+			remoteInfo = "Psychology Revision";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A645E2127E9EE44005C65C9 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		7A9E83E427D0D1DD004E1395 /* Psychology Revision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychology Revision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionApp.swift; sourceTree = "<group>"; };
+		7A9E83E927D0D1DD004E1395 /* HomePage.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; wrapsLines = 1; };
+		7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A9E83EE27D0D1DD004E1395 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A9E83F427D0D1DD004E1395 /* Psychology RevisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psychology RevisionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9E83F827D0D1DD004E1395 /* Psychology_RevisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionTests.swift; sourceTree = "<group>"; };
+		7A9E83FE27D0D1DD004E1395 /* Psychology RevisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psychology RevisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITests.swift; sourceTree = "<group>"; };
+		7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AE006B527E0D4F300567275 /* ResearchMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchMethods.swift; sourceTree = "<group>"; };
+		7AE006B727E0DE4D00567275 /* RMQuestions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RMQuestions.txt; path = ../../RMQuestions.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A9E83E127D0D1DD004E1395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9E83F127D0D1DD004E1395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9E83FB27D0D1DD004E1395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A9E83DB27D0D1DD004E1395 = {
+			isa = PBXGroup;
+			children = (
+				7A9E83E627D0D1DD004E1395 /* Psychology Revision */,
+				7A9E83F727D0D1DD004E1395 /* Psychology RevisionTests */,
+				7A9E840127D0D1DD004E1395 /* Psychology RevisionUITests */,
+				7A9E83E527D0D1DD004E1395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A9E83E527D0D1DD004E1395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E83E427D0D1DD004E1395 /* Psychology Revision.app */,
+				7A9E83F427D0D1DD004E1395 /* Psychology RevisionTests.xctest */,
+				7A9E83FE27D0D1DD004E1395 /* Psychology RevisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A9E83E627D0D1DD004E1395 /* Psychology Revision */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */,
+				7A9E83E927D0D1DD004E1395 /* HomePage.swift */,
+				7A645E2127E9EE44005C65C9 /* secondView.swift */,
+				7AE006B527E0D4F300567275 /* ResearchMethods.swift */,
+				7AE006B727E0DE4D00567275 /* RMQuestions.txt */,
+				7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */,
+				7A9E83ED27D0D1DD004E1395 /* Preview Content */,
+			);
+			path = "Psychology Revision";
+			sourceTree = "<group>";
+		};
+		7A9E83ED27D0D1DD004E1395 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E83EE27D0D1DD004E1395 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A9E83F727D0D1DD004E1395 /* Psychology RevisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E83F827D0D1DD004E1395 /* Psychology_RevisionTests.swift */,
+			);
+			path = "Psychology RevisionTests";
+			sourceTree = "<group>";
+		};
+		7A9E840127D0D1DD004E1395 /* Psychology RevisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */,
+				7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */,
+			);
+			path = "Psychology RevisionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A9E83E327D0D1DD004E1395 /* Psychology Revision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9E840827D0D1DD004E1395 /* Build configuration list for PBXNativeTarget "Psychology Revision" */;
+			buildPhases = (
+				7A9E83E027D0D1DD004E1395 /* Sources */,
+				7A9E83E127D0D1DD004E1395 /* Frameworks */,
+				7A9E83E227D0D1DD004E1395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Psychology Revision";
+			productName = "Psychology Revision";
+			productReference = 7A9E83E427D0D1DD004E1395 /* Psychology Revision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A9E83F327D0D1DD004E1395 /* Psychology RevisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9E840B27D0D1DD004E1395 /* Build configuration list for PBXNativeTarget "Psychology RevisionTests" */;
+			buildPhases = (
+				7A9E83F027D0D1DD004E1395 /* Sources */,
+				7A9E83F127D0D1DD004E1395 /* Frameworks */,
+				7A9E83F227D0D1DD004E1395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9E83F627D0D1DD004E1395 /* PBXTargetDependency */,
+			);
+			name = "Psychology RevisionTests";
+			productName = "Psychology RevisionTests";
+			productReference = 7A9E83F427D0D1DD004E1395 /* Psychology RevisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A9E83FD27D0D1DD004E1395 /* Psychology RevisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9E840E27D0D1DD004E1395 /* Build configuration list for PBXNativeTarget "Psychology RevisionUITests" */;
+			buildPhases = (
+				7A9E83FA27D0D1DD004E1395 /* Sources */,
+				7A9E83FB27D0D1DD004E1395 /* Frameworks */,
+				7A9E83FC27D0D1DD004E1395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9E840027D0D1DD004E1395 /* PBXTargetDependency */,
+			);
+			name = "Psychology RevisionUITests";
+			productName = "Psychology RevisionUITests";
+			productReference = 7A9E83FE27D0D1DD004E1395 /* Psychology RevisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A9E83DC27D0D1DD004E1395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = yes;
+				TargetAttributes = {
+					7A9E83E327D0D1DD004E1395 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7A9E83F327D0D1DD004E1395 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7A9E83E327D0D1DD004E1395;
+					};
+					7A9E83FD27D0D1DD004E1395 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7A9E83E327D0D1DD004E1395;
+					};
+				};
+			};
+			buildConfigurationList = 7A9E83DF27D0D1DD004E1395 /* Build configuration list for PBXProject "Psychology Revision" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A9E83DB27D0D1DD004E1395;
+			productRefGroup = 7A9E83E527D0D1DD004E1395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A9E83E327D0D1DD004E1395 /* Psychology Revision */,
+				7A9E83F327D0D1DD004E1395 /* Psychology RevisionTests */,
+				7A9E83FD27D0D1DD004E1395 /* Psychology RevisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A9E83E227D0D1DD004E1395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE006B827E0DE4D00567275 /* RMQuestions.txt in Resources */,
+				7A9E83EF27D0D1DD004E1395 /* Preview Assets.xcassets in Resources */,
+				7A9E83EC27D0D1DD004E1395 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9E83F227D0D1DD004E1395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9E83FC27D0D1DD004E1395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A9E83E027D0D1DD004E1395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */,
+				7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */,
+				7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */,
+				7A9E83E827D0D1DD004E1395 /* Psychology_RevisionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9E83F027D0D1DD004E1395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9E83F927D0D1DD004E1395 /* Psychology_RevisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9E83FA27D0D1DD004E1395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9E840527D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift in Sources */,
+				7A9E840327D0D1DD004E1395 /* Psychology_RevisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A9E83F627D0D1DD004E1395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A9E83E327D0D1DD004E1395 /* Psychology Revision */;
+			targetProxy = 7A9E83F527D0D1DD004E1395 /* PBXContainerItemProxy */;
+		};
+		7A9E840027D0D1DD004E1395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A9E83E327D0D1DD004E1395 /* Psychology Revision */;
+			targetProxy = 7A9E83FF27D0D1DD004E1395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A9E840627D0D1DD004E1395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A9E840727D0D1DD004E1395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A9E840927D0D1DD004E1395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Psychology Revision/Preview Content\"";
+				DEVELOPMENT_TEAM = UMFL95RY3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhea-Bakrania.Psychology-Revision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A9E840A27D0D1DD004E1395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Psychology Revision/Preview Content\"";
+				DEVELOPMENT_TEAM = UMFL95RY3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhea-Bakrania.Psychology-Revision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7A9E840C27D0D1DD004E1395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhea-Bakrania.Psychology-RevisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychology Revision.app/Psychology Revision";
+			};
+			name = Debug;
+		};
+		7A9E840D27D0D1DD004E1395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhea-Bakrania.Psychology-RevisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychology Revision.app/Psychology Revision";
+			};
+			name = Release;
+		};
+		7A9E840F27D0D1DD004E1395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhea-Bakrania.Psychology-RevisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Psychology Revision";
+			};
+			name = Debug;
+		};
+		7A9E841027D0D1DD004E1395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhea-Bakrania.Psychology-RevisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Psychology Revision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A9E83DF27D0D1DD004E1395 /* Build configuration list for PBXProject "Psychology Revision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9E840627D0D1DD004E1395 /* Debug */,
+				7A9E840727D0D1DD004E1395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9E840827D0D1DD004E1395 /* Build configuration list for PBXNativeTarget "Psychology Revision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9E840927D0D1DD004E1395 /* Debug */,
+				7A9E840A27D0D1DD004E1395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9E840B27D0D1DD004E1395 /* Build configuration list for PBXNativeTarget "Psychology RevisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9E840C27D0D1DD004E1395 /* Debug */,
+				7A9E840D27D0D1DD004E1395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9E840E27D0D1DD004E1395 /* Build configuration list for PBXNativeTarget "Psychology RevisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9E840F27D0D1DD004E1395 /* Debug */,
+				7A9E841027D0D1DD004E1395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A9E83DC27D0D1DD004E1395 /* Project object */;
+}
