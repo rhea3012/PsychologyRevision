@@ -9,7 +9,7 @@
 import SwiftUI
 struct ContentView: View {
 	
-//Creating Variables for Topics
+//Creating Variables for Revision Topics
 	@State private var setMemory = false
 	@State private var setSocialInfluence = false
 	@State private var setApproaches = false
@@ -22,7 +22,7 @@ struct ContentView: View {
 	
 //Creating Buttons for Number of Questions
 			let buttons = ["10", "20", "30", "40", "50"]
-	@State public var buttonSelected: Int?
+	@State public var NumberSelected: Int?
 	
 //Creating Variable for 'How To Use' Instructions
 	@State private var HowToUse = """
@@ -40,8 +40,18 @@ All multiple choice questions will be automatically marked. For the harder quest
 //Creating Variables for 'Continue' Button
 	let button = ["Continue"]
     @State public var buttonContinue: Int?
-
 	
+//Making Sure User Selects Topic(s) and Number of Questions
+	private var allTopics: [Bool] {
+	   [setMemory, setSocialInfluence, setApproaches, setPsychopathology, setBiopsychology, setAttachment, setIssuesandDebates, setSchizophrenia, setResearchMethods]}
+
+   private var TopicSelected: Bool {
+	   allTopics.contains { $0 }}
+
+   private var isFormValid: Bool {
+	   TopicSelected && NumberSelected != nil}
+	
+//User Home Page View
 	var body: some View {
 		
 //Allows for Navigation and Scrolling
@@ -134,14 +144,14 @@ All multiple choice questions will be automatically marked. For the harder quest
 			HStack(spacing: 15) {
 				ForEach(0..<buttons.count, id: \.self) {button in
 					Button(action: {
-						self.buttonSelected = button
+						self.NumberSelected = button
 						
 					}) {
 						Text("\(self.buttons[button])")
 							.foregroundColor(Color("Black-White"))
 							.font(.title3)
 							.padding()
-							.background(self.buttonSelected == button ? Color(.gray): Color("White-Black"))
+							.background(self.NumberSelected == button ? Color(.gray): Color("White-Black"))
 						.clipShape(Capsule())}}
 				
 				}
@@ -201,7 +211,9 @@ All multiple choice questions will be automatically marked. For the harder quest
 						.foregroundColor(.white)
 						.foregroundStyle(.background)
 						.background(2 == button ? Color.primary: Color.secondary)
-						.clipShape(Capsule())}}
+						
+//'Continue' Button is Disabled if User Has Not Selected Values
+						.clipShape(Capsule())}}.disabled(!isFormValid)
 				
 				
 				
