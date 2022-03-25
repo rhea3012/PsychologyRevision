@@ -1,2 +1,1 @@
 # PsychologyRevision
-# PsychologyRevision

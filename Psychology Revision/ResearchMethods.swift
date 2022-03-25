@@ -7,20 +7,24 @@
 //
 
 import Foundation
-
-let file = "Questions1.txt" //this is the file. we will write to and read from it
-
-if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
-
-    let fileURL = dir.appendingPathComponent(file)
+func ResearchMethods (){
+let file = "RMQuestions.txt"
     
-
-    //reading
+var RMQuestions = ""
+ 
+//if you get access to the directory
+if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
+ 
+    //prepare file url
+    let fileURL = dir.appendingPathComponent(file)
+ 
     do {
-        let Questions1 = try String(contentsOf: fileURL, encoding: .utf8)
-        print(Questions1)
+        RMQuestions = try String(contentsOf: fileURL, encoding: .utf8)
     }
-    catch {/* error handling here */}
-
+    catch {/* handle if there are any errors */}
 }
+ 
+    print(RMQuestions)
 
+
+    }

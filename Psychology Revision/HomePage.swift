@@ -1,9 +1,9 @@
-
 //
 //  ContentView.swift
 //  Psychology Revision
 //
 //  Created by Rhea Bakrania on 03/03/2022.
+//  Copyright © 2022 yes. All rights reserved.
 //
 
 import SwiftUI
@@ -65,7 +65,7 @@ All multiple choice questions will be automatically marked. For the harder quest
 					.font(.title2)
 				.fontWeight(.medium)
 				.foregroundColor(Color("Black-White"))
-				.lineLimit(nil)
+			//	.lineLimit(nil)
 				.padding(.top, -20.0)
 				.frame(width: 161, height: 10, alignment: .topLeading)
 				.padding(.trailing, 198.0)
@@ -193,7 +193,7 @@ All multiple choice questions will be automatically marked. For the harder quest
 						
 //Links Conitinue Button To Next Page
 						NavigationLink(destination: secondView()) {
-							secondView()
+							Text("Continue")
 						}
 						
 						.padding(.vertical, 12.5)

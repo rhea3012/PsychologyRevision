@@ -8,11 +8,19 @@
 
 import SwiftUI
 
+let Questions = ResearchMethods
+
 struct secondView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+
+        Text("Questions")
+        
+        
+        
+        }
     }
-}
+
 
 struct secondView_Previews: PreviewProvider {
     static var previews: some View {
