@@ -9,13 +9,17 @@
 
 import Foundation
 
- func ResearchMethods (){
-     _ = "RMQuestions.txt"
+enum QuestionPackError: Error {
+     case invalidURL
+ }
 
-     let RMQuestions = "rm questions"
-     
-     print(RMQuestions)
+ func readQuestionPack() throws -> QuestionPack {
 
 
-     }
+     guard let url = Bundle.main.url(forResource: "questions", withExtension: "json") else {
+             throw QuestionPackError.invalidURL
+         }
 
+     let data = try Data(contentsOf: url)
+          return try JSONDecoder().decode(QuestionPack.self, from: data)
+      }

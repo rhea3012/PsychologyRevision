@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0CFA3527EE005D00F7533B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CFA3427EE005D00F7533B /* Question.swift */; };
+		7A0CFA3727EE008700F7533B /* QuestionPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CFA3627EE008700F7533B /* QuestionPack.swift */; };
+		7A0CFA3927EE015500F7533B /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A0CFA3827EE015500F7533B /* questions.json */; };
 		7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A645E2127E9EE44005C65C9 /* secondView.swift */; };
 		7A9E83E827D0D1DD004E1395 /* Psychology_RevisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */; };
 		7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E927D0D1DD004E1395 /* HomePage.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A0CFA3427EE005D00F7533B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7A0CFA3627EE008700F7533B /* QuestionPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPack.swift; sourceTree = "<group>"; };
+		7A0CFA3827EE015500F7533B /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		7A645E2127E9EE44005C65C9 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
 		7A9E83E427D0D1DD004E1395 /* Psychology Revision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychology Revision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionApp.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				7A9E83E927D0D1DD004E1395 /* HomePage.swift */,
 				7A645E2127E9EE44005C65C9 /* secondView.swift */,
 				7AE006B527E0D4F300567275 /* ResearchMethods.swift */,
+				7A0CFA3827EE015500F7533B /* questions.json */,
+				7A0CFA3427EE005D00F7533B /* Question.swift */,
+				7A0CFA3627EE008700F7533B /* QuestionPack.swift */,
 				7AE006B727E0DE4D00567275 /* RMQuestions.txt */,
 				7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */,
 				7A9E83ED27D0D1DD004E1395 /* Preview Content */,
@@ -242,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE006B827E0DE4D00567275 /* RMQuestions.txt in Resources */,
+				7A0CFA3927EE015500F7533B /* questions.json in Resources */,
 				7A9E83EF27D0D1DD004E1395 /* Preview Assets.xcassets in Resources */,
 				7A9E83EC27D0D1DD004E1395 /* Assets.xcassets in Resources */,
 			);
@@ -268,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0CFA3727EE008700F7533B /* QuestionPack.swift in Sources */,
+				7A0CFA3527EE005D00F7533B /* Question.swift in Sources */,
 				7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */,
 				7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */,
 				7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */,
