@@ -19,7 +19,6 @@
 		7A9E840327D0D1DD004E1395 /* Psychology_RevisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */; };
 		7A9E840527D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */; };
 		7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE006B527E0D4F300567275 /* ResearchMethods.swift */; };
-		7AE006B827E0DE4D00567275 /* RMQuestions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7AE006B727E0DE4D00567275 /* RMQuestions.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITests.swift; sourceTree = "<group>"; };
 		7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7AE006B527E0D4F300567275 /* ResearchMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchMethods.swift; sourceTree = "<group>"; };
-		7AE006B727E0DE4D00567275 /* RMQuestions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RMQuestions.txt; path = ../../RMQuestions.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +111,6 @@
 				7A0CFA3827EE015500F7533B /* questions.json */,
 				7A0CFA3427EE005D00F7533B /* Question.swift */,
 				7A0CFA3627EE008700F7533B /* QuestionPack.swift */,
-				7AE006B727E0DE4D00567275 /* RMQuestions.txt */,
 				7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */,
 				7A9E83ED27D0D1DD004E1395 /* Preview Content */,
 			);
@@ -250,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE006B827E0DE4D00567275 /* RMQuestions.txt in Resources */,
 				7A0CFA3927EE015500F7533B /* questions.json in Resources */,
 				7A9E83EF27D0D1DD004E1395 /* Preview Assets.xcassets in Resources */,
 				7A9E83EC27D0D1DD004E1395 /* Assets.xcassets in Resources */,

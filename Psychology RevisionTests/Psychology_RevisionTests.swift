@@ -11,7 +11,6 @@ import XCTest
 class Psychology_RevisionTests: XCTestCase {
 
     func testReadQuestionPack() throws {
-
              let questionPack = try readQuestionPack()
              XCTAssertEqual(questionPack.questions.count, 1)
              XCTAssertEqual(questionPack.questions[0].answers[1], "a quasi experiment")
