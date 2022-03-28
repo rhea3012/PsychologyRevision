@@ -6,7 +6,6 @@
 //  Copyright © 2022 yes. All rights reserved.
 //
 
-
 struct QuestionPack: Codable {
     let questions: [Question]
 }

@@ -108,9 +108,9 @@
 				7A9E83E927D0D1DD004E1395 /* HomePage.swift */,
 				7A645E2127E9EE44005C65C9 /* secondView.swift */,
 				7AE006B527E0D4F300567275 /* ResearchMethods.swift */,
-				7A0CFA3827EE015500F7533B /* questions.json */,
 				7A0CFA3427EE005D00F7533B /* Question.swift */,
 				7A0CFA3627EE008700F7533B /* QuestionPack.swift */,
+				7A0CFA3827EE015500F7533B /* questions.json */,
 				7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */,
 				7A9E83ED27D0D1DD004E1395 /* Preview Content */,
 			);

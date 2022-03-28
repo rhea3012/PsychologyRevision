@@ -4,10 +4,10 @@
 //
 //  Created by Rhea Bakrania on 15/03/2022.
 //  Copyright © 2022 yes. All rights reserved.
-// test
-//test
 
 import Foundation
+
+var questions = try! readQuestionPack()
 
 enum QuestionPackError: Error {
      case invalidURL

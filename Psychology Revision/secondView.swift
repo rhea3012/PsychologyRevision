@@ -8,15 +8,19 @@
 
 import SwiftUI
 
- //let Questions = ResearchMethods()
+
 
  struct secondView: View {
+     
+  //   @State var questions = question
+     let question = questions
+    
      var body: some View {
 
          
 //Text(Questions)
-         let text: [type] = readQuestionPack()
-         Text(text[0][0])
+         Text(questions)
+         
      }
  }
 
