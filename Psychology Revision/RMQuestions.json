@@ -1,14 +1,10 @@
-{
-     "questions": [
-         {
-             "question": "If a researcher wanted to establish a different between males and females on an intelligence test, is this:",
-             "answers": [
-                 "a field experiment",
-                 "a quasi experiment",
-                 "a natural experiment"
-             ],
-             "marks": 1,
-             "correctAnswerIndex": 1
-         }
-     ]
- }
+[
+    
+    {
+        "question": "If a researcher wanted to establish a different between males and females on an intelligence test, is this:",
+        "answers": ["a field experiment", "a quasi experiment", "a natural experiment"],
+        "marks": 1,
+        "correctAnswerIndex": 1
+     },
+    ]
+
