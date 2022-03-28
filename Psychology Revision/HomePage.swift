@@ -202,8 +202,8 @@ All multiple choice questions will be automatically marked. For the harder quest
 						
 					}) {
 						
-//Links Conitinue Button To Next Page
-						NavigationLink(destination: secondView()) {
+//Links Continue Button To Next Page
+						NavigationLink(destination: secondView(questions: questions[0])) {
 							Text("Continue")
 						}
 						

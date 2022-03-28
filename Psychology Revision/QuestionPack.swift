@@ -6,6 +6,6 @@
 //  Copyright © 2022 yes. All rights reserved.
 //
 
-struct QuestionPack: Codable {
+struct QuestionPack: Hashable, Codable {
     let questions: [Question]
 }

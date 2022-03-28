@@ -9,24 +9,31 @@
 import SwiftUI
 
 
+struct secondView: View {
 
- struct secondView: View {
-     
-  //   @State var questions = question
-     let question = questions
-    
-     var body: some View {
-
-         
-//Text(Questions)
-         Text(questions)
-         
-     }
- }
+    var questions: Question
 
 
- struct secondView_Previews: PreviewProvider {
-    static var previews: some View {
-        secondView()
+    var body: some View {
+
+        HStack {
+
+            Text(questions.question)
+
+        }
+
     }
+
+}
+
+
+
+struct secondView_Previews: PreviewProvider {
+
+    static var previews: some View {
+
+        secondView(questions: questions[0])
+
+    }
+
 }

@@ -6,7 +6,7 @@
 //  Copyright © 2022 yes. All rights reserved.
 //
 
-struct Question: Codable {
+struct Question: Hashable, Codable {
      let question: String
      let answers: [String]
      let marks: Int
