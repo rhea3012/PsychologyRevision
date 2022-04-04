@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Which of the following is associated with an insecure-resistant attachment type:",
+        "options": ["Extreme stranger anxiety", "Moderate levels of separation anxiety", "Obvious joy upon reunion"],
+        "answer": 0,
+        "marksAwarded": 1
+     },
+    {
+        "question": "What is the third stage of attachment according to Schaffer:",
+        "options": ["Asocial", "Indiscriminate, "Specific/Discriminate"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following statement is correct, the Romanian Orphan research is:",
+        "options": ["Limited as it only involves a few case studies", "Good as it involves comparison with control groups", "Ethically questionable as it involves separation"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "When studying cross-cultural variations of attachment, which one of the following attachment types was found to be the most common in all of the countries investigated:",
+        "options": ["Anxious-resistant", "Secure", "Disorganised"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Researcher X found young animals seemed to attach for comfort rather than for food. Select the name of Researcher X:"
+        "options": ["Harlow", "Lorenz", "Bowlby"],
+        "answer": 0,
+        "marksAwarded": 1
+     },
+]

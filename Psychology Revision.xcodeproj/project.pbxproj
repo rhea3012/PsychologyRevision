@@ -9,7 +9,15 @@
 /* Begin PBXBuildFile section */
 		7A0CFA3527EE005D00F7533B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CFA3427EE005D00F7533B /* Question.swift */; };
 		7A0CFA3727EE008700F7533B /* QuestionPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CFA3627EE008700F7533B /* QuestionPack.swift */; };
-		7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A645E2127E9EE44005C65C9 /* secondView.swift */; };
+		7A233D8827F30B08004A4F10 /* MemoryMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D8727F30B08004A4F10 /* MemoryMCQ.json */; };
+		7A233D8A27F30B2D004A4F10 /* SchizophreniaMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D8927F30B2D004A4F10 /* SchizophreniaMCQ.json */; };
+		7A233D8C27F30B46004A4F10 /* AttachmentMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D8B27F30B46004A4F10 /* AttachmentMCQ.json */; };
+		7A233D8E27F30B61004A4F10 /* SocialInfluenceMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D8D27F30B61004A4F10 /* SocialInfluenceMCQ.json */; };
+		7A233D9027F30C8A004A4F10 /* PsychopathologyMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D8F27F30C8A004A4F10 /* PsychopathologyMCQ.json */; };
+		7A233D9227F30D04004A4F10 /* ApproachesMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D9127F30D04004A4F10 /* ApproachesMCQ.json */; };
+		7A233D9427F30D0C004A4F10 /* BiopsychologyMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D9327F30D0C004A4F10 /* BiopsychologyMCQ.json */; };
+		7A233D9627F30D24004A4F10 /* Issues&DebatesMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A233D9527F30D24004A4F10 /* Issues&DebatesMCQ.json */; };
+		7A645E2227E9EE44005C65C9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A645E2127E9EE44005C65C9 /* SecondView.swift */; };
 		7A9E83E827D0D1DD004E1395 /* Psychology_RevisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */; };
 		7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E927D0D1DD004E1395 /* HomePage.swift */; };
 		7A9E83EC27D0D1DD004E1395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */; };
@@ -17,7 +25,7 @@
 		7A9E83F927D0D1DD004E1395 /* Psychology_RevisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83F827D0D1DD004E1395 /* Psychology_RevisionTests.swift */; };
 		7A9E840327D0D1DD004E1395 /* Psychology_RevisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */; };
 		7A9E840527D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */; };
-		7AD0F22127F222F50088A0D0 /* RMQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD0F22027F222F50088A0D0 /* RMQuestions.json */; };
+		7AD0F22127F222F50088A0D0 /* ResearchMCQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD0F22027F222F50088A0D0 /* ResearchMCQ.json */; };
 		7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE006B527E0D4F300567275 /* ResearchMethods.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +49,16 @@
 /* Begin PBXFileReference section */
 		7A0CFA3427EE005D00F7533B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		7A0CFA3627EE008700F7533B /* QuestionPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPack.swift; sourceTree = "<group>"; };
-		7A645E2127E9EE44005C65C9 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		7A233D8727F30B08004A4F10 /* MemoryMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MemoryMCQ.json; sourceTree = "<group>"; };
+		7A233D8927F30B2D004A4F10 /* SchizophreniaMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SchizophreniaMCQ.json; sourceTree = "<group>"; };
+		7A233D8B27F30B46004A4F10 /* AttachmentMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AttachmentMCQ.json; sourceTree = "<group>"; };
+		7A233D8D27F30B61004A4F10 /* SocialInfluenceMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SocialInfluenceMCQ.json; sourceTree = "<group>"; };
+		7A233D8F27F30C8A004A4F10 /* PsychopathologyMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PsychopathologyMCQ.json; sourceTree = "<group>"; };
+		7A233D9127F30D04004A4F10 /* ApproachesMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ApproachesMCQ.json; sourceTree = "<group>"; };
+		7A233D9327F30D0C004A4F10 /* BiopsychologyMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BiopsychologyMCQ.json; sourceTree = "<group>"; };
+		7A233D9527F30D24004A4F10 /* Issues&DebatesMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Issues&DebatesMCQ.json"; sourceTree = "<group>"; };
+		7A233D9827F3A95B004A4F10 /* Psychology-Revision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Psychology-Revision-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7A645E2127E9EE44005C65C9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		7A9E83E427D0D1DD004E1395 /* Psychology Revision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychology Revision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionApp.swift; sourceTree = "<group>"; };
 		7A9E83E927D0D1DD004E1395 /* HomePage.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; wrapsLines = 1; };
@@ -52,7 +69,7 @@
 		7A9E83FE27D0D1DD004E1395 /* Psychology RevisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psychology RevisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITests.swift; sourceTree = "<group>"; };
 		7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7AD0F22027F222F50088A0D0 /* RMQuestions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RMQuestions.json; sourceTree = "<group>"; };
+		7AD0F22027F222F50088A0D0 /* ResearchMCQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ResearchMCQ.json; sourceTree = "<group>"; };
 		7AE006B527E0D4F300567275 /* ResearchMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +98,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A233D8627F30AD0004A4F10 /* MCQ's */ = {
+			isa = PBXGroup;
+			children = (
+				7AD0F22027F222F50088A0D0 /* ResearchMCQ.json */,
+				7A233D8727F30B08004A4F10 /* MemoryMCQ.json */,
+				7A233D8B27F30B46004A4F10 /* AttachmentMCQ.json */,
+				7A233D8D27F30B61004A4F10 /* SocialInfluenceMCQ.json */,
+				7A233D9127F30D04004A4F10 /* ApproachesMCQ.json */,
+				7A233D9527F30D24004A4F10 /* Issues&DebatesMCQ.json */,
+				7A233D8F27F30C8A004A4F10 /* PsychopathologyMCQ.json */,
+				7A233D8927F30B2D004A4F10 /* SchizophreniaMCQ.json */,
+				7A233D9327F30D0C004A4F10 /* BiopsychologyMCQ.json */,
+				7A233D9727F3A912004A4F10 /* SA's & LA's */,
+			);
+			path = "MCQ's";
+			sourceTree = "<group>";
+		};
+		7A233D9727F3A912004A4F10 /* SA's & LA's */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SA's & LA's";
+			sourceTree = "<group>";
+		};
 		7A9E83DB27D0D1DD004E1395 = {
 			isa = PBXGroup;
 			children = (
@@ -104,13 +145,14 @@
 		7A9E83E627D0D1DD004E1395 /* Psychology Revision */ = {
 			isa = PBXGroup;
 			children = (
+				7A233D9827F3A95B004A4F10 /* Psychology-Revision-Info.plist */,
 				7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */,
 				7A9E83E927D0D1DD004E1395 /* HomePage.swift */,
-				7A645E2127E9EE44005C65C9 /* secondView.swift */,
+				7A645E2127E9EE44005C65C9 /* SecondView.swift */,
 				7AE006B527E0D4F300567275 /* ResearchMethods.swift */,
-				7A0CFA3427EE005D00F7533B /* Question.swift */,
 				7A0CFA3627EE008700F7533B /* QuestionPack.swift */,
-				7AD0F22027F222F50088A0D0 /* RMQuestions.json */,
+				7A0CFA3427EE005D00F7533B /* Question.swift */,
+				7A233D8627F30AD0004A4F10 /* MCQ's */,
 				7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */,
 				7A9E83ED27D0D1DD004E1395 /* Preview Content */,
 			);
@@ -248,8 +290,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9E83EF27D0D1DD004E1395 /* Preview Assets.xcassets in Resources */,
-				7AD0F22127F222F50088A0D0 /* RMQuestions.json in Resources */,
+				7A233D9427F30D0C004A4F10 /* BiopsychologyMCQ.json in Resources */,
+				7A233D8E27F30B61004A4F10 /* SocialInfluenceMCQ.json in Resources */,
+				7AD0F22127F222F50088A0D0 /* ResearchMCQ.json in Resources */,
+				7A233D9627F30D24004A4F10 /* Issues&DebatesMCQ.json in Resources */,
+				7A233D9227F30D04004A4F10 /* ApproachesMCQ.json in Resources */,
 				7A9E83EC27D0D1DD004E1395 /* Assets.xcassets in Resources */,
+				7A233D8827F30B08004A4F10 /* MemoryMCQ.json in Resources */,
+				7A233D9027F30C8A004A4F10 /* PsychopathologyMCQ.json in Resources */,
+				7A233D8C27F30B46004A4F10 /* AttachmentMCQ.json in Resources */,
+				7A233D8A27F30B2D004A4F10 /* SchizophreniaMCQ.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +328,7 @@
 				7A0CFA3527EE005D00F7533B /* Question.swift in Sources */,
 				7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */,
 				7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */,
-				7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */,
+				7A645E2227E9EE44005C65C9 /* SecondView.swift in Sources */,
 				7A9E83E827D0D1DD004E1395 /* Psychology_RevisionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +493,7 @@
 				DEVELOPMENT_TEAM = UMFL95RY3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psychology-Revision-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -474,6 +525,7 @@
 				DEVELOPMENT_TEAM = UMFL95RY3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psychology-Revision-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

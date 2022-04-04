@@ -3,9 +3,9 @@
 //  Psychology Revision
 //
 //  Created by Rhea Bakrania on 25/03/2022.
-//  Copyright © 2022 yes. All rights reserved.
+//  Copyright © 2022. All rights reserved.
 //
 
 struct QuestionPack: Hashable, Codable {
-    let questions: [Question]
+    let Questions: [Question]
 }

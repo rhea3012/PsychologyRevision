@@ -3,9 +3,7 @@
 //  Psychology Revision
 //
 //  Created by Rhea Bakrania on 03/03/2022.
-//  Copyright © 2022 yes. All rights reserved.
-// test
-//test
+//  Copyright © 2022. All rights reserved.
 
 import SwiftUI
 struct ContentView: View {
@@ -20,6 +18,7 @@ struct ContentView: View {
 	@State private var setIssuesandDebates = false
 	@State private var setSchizophrenia = false
 	@State private var setResearchMethods = false
+	@State private var oneClicked = false
 	
 //Creating Buttons for Number of Questions
 			let buttons = ["10", "20", "30", "40", "50"]
@@ -27,9 +26,9 @@ struct ContentView: View {
 	
 //Creating Variable for 'How To Use' Instructions
 	@State private var HowToUse = """
-1. Select your revision topics
+1. Select your revision topic
 2. Choose how many questions you are able to answer
-3. Click the 'continue' button and start revising!
+3. Click the 'continue' button below and start revising!
 """
 	@State private var HowToUse2 = """
 Multiple choice questions will appear first. Once you have a score of 5 or over, the difficulty will increase to short-answer questions. If you master these and achieve a score of 25 or above, long-answer questions will appear.
@@ -61,14 +60,11 @@ All multiple choice questions will be automatically marked. For the harder quest
 			
 //App Logo and Vertical Stacks
 			VStack(spacing: 1.0) {
-			HStack {
 			Image("AppLogo")
 					.resizable()
 					.scaledToFit()
 					.padding(.trailing, 50.0)
 				.frame(height: 100, alignment: .topLeading)
-				
-			}
 			
 //'Topics to Revise' Header and Horizontal Stacks
 			HStack {
@@ -76,7 +72,6 @@ All multiple choice questions will be automatically marked. For the harder quest
 					.font(.title2)
 				.fontWeight(.medium)
 				.foregroundColor(Color("Black-White"))
-			//	.lineLimit(nil)
 				.padding(.top, -20.0)
 				.frame(width: 161, height: 10, alignment: .topLeading)
 				.padding(.trailing, 198.0)
@@ -152,7 +147,7 @@ All multiple choice questions will be automatically marked. For the harder quest
 							.foregroundColor(Color("Black-White"))
 							.font(.title3)
 							.padding()
-							.background(self.NumberSelected == button ? Color(.gray): Color("White-Black"))
+							.background(self.NumberSelected == button ? Color("Custom Gray"): Color("White-Black"))
 						.clipShape(Capsule())}}
 				
 				}
@@ -203,7 +198,7 @@ All multiple choice questions will be automatically marked. For the harder quest
 					}) {
 						
 //Links Continue Button To Next Page
-						NavigationLink(destination: secondView(questions: questions[0])) {
+						NavigationLink(destination: SecondView(researchMCQ: [])) {
 							Text("Continue")
 						}
 						
@@ -217,14 +212,13 @@ All multiple choice questions will be automatically marked. For the harder quest
 						.clipShape(Capsule())}}.disabled(!isFormValid)
 				
 				
-				
 			}
 			
 			Spacer()
 				
 		}
 		
-//Allows Navigate Through Pages
+//Allows Navigation Through Pages
 		.navigationTitle("")
 		.padding(.top, -100)
 			

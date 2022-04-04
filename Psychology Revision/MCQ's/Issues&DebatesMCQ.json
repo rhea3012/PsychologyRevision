@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Which of the following best describes an idiographic approach in psychology:",
+        "options": ["Studying individuals in order to establish general laws of behaviour", "Studying individuals without intending to establish general laws of behaviour", "Studying large samples in order to establish general laws of behaviour"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following best describes a reductionist approach in psychology:",
+        "options": ["Explaining behaviour in a simple way in terms of basic units", "Explaining behaviour in one way and ignoring all other explanations", "Explaining behaviour in several different ways at the same time"],
+        "answer": 0,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following statements best describes a strongly deterministic view:",
+        "options": ["People are always responsible for their own actions", "People behave in a random fashion", "People’s behaviour always has a cause"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following describes cultural relativism:",
+        "options": ["It can apply to all people", "Seeing the world from a singular cultural perspective and believing this to be normal", "Behaviour which needs to be understood from the context of a culture"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following statements does NOT describe the nomothetic approach to psychological research:",
+        "options": ["Scientific", "Quantitative data", "Unique personal experiences"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+]

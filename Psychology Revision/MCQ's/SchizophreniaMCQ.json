@@ -1,0 +1,33 @@
+[
+    {
+        "question": "Which of the following best describes neural correlates as an explanation for schizophrenia:",
+        "options": ["There is a correlation between brain plasticity and symptoms of schizophrenia", "There is a correlation between brain structure/function and symptoms of schizophrenia", "There is a correlation between neuron size and symptoms of schizophrenia"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "What does the term ‘hyperdopaminergia’ refer to:",
+        "options": ["Excessive levels of dopamine in the subcortex", "Low levels of dopamine in the prefrontal cortex", "High levels of dopamine in the prefrontal cortex"],
+        "answer": 0,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which definition is linked to the term positive symptoms:",
+        "options": ["Additional experiences beyond those of an ordinary existence", "The loss of usual abilities and experiences", "Symptoms which have a positive impact for the individual"],
+        "answer": 0,
+        "marksAwarded": 1
+     },
+    {
+        "question": "How many separate genetic variations did Ripke et al associate with an increased risk of schizophrenia:",
+        "options": ["104", "108", "73"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following is NOT an atypical antipsychotic:",
+        "options": ["Clozapine", "Risperidone", "Chlorpromazine"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+]
+

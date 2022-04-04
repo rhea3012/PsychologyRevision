@@ -1,0 +1,32 @@
+[
+    {
+        "question": "If a researcher wanted to establish a difference between males and females on an intelligence test, is this:",
+        "options": ["A field experiment", "A natural experiment", "A quasi experiment"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "What difference does this statements describe ‘in one the participant knows they are being observed, whereas, in the other, the participant does not know':",
+        "options": ["Naturalistic and controlled observations", "Overt and covert observations", "Participant and non-participant observations"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "In a set of data the following values are given, mean = 10, mode = 12 and median = 11. What type of distribution is this:",
+        "options": ["Normal distribution", "Positive skew", "Negative skew"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of these two statements describes a type two error:",
+        "options": ["When the researcher accepts their experimental hypothesis when they should have rejected it", "When a researcher rejects their experimental hypothesis when they should have accepted it", "When a researcher accepts their null hypothesis"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "A paradigm shift is:",
+        "options": ["A shared set of assumptions and methods", "When psychologists diagree with one another", "When an accepted way of thinking about something is replaced by a new one"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+]

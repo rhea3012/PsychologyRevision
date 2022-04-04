@@ -3,11 +3,11 @@
 //  Psychology Revision
 //
 //  Created by Rhea Bakrania on 15/03/2022.
-//  Copyright © 2022 yes. All rights reserved.
+//  Copyright © 2022. All rights reserved.
 
 import Foundation
 
-var questions: [Question] = load("RMQuestions.json")
+var questions: [Question] = load("ResearchMCQ.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

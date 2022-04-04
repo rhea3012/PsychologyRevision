@@ -1,0 +1,33 @@
+[
+    {
+        "question": "The sleep-wake cycle is an example of one type of biological rhythm; it is called a:",
+        "options": ["Circadian rhythm", "Infradian rhythm", "Ultradian rhythm"],
+        "answer": 0,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which one of the following glands are NOT part of the endocrine system:",
+        "options": ["The pituitary gland", "The thyroid gland", "The exocrine gland"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following responses is a result of the action of the sympathetic division of the autonomic nervous system:",
+        "options": ["Decreased pupil size", "Increased digestion", "Increased heart rate"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Sensory neurons carry information:",
+        "options": ["Away from the brain", "Towards the brain", "Within the brain"],
+        "answer": 1,
+        "marksAwarded": 1
+     },
+    {
+        "question": "What is the correct definition for the somatosensory area:",
+        "options": ["A part of the occipital lobe that receives and processes visual information", "An area of the frontal lobe responsible for speech production", "An area of the parietal lobe that processes sensory information"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+]
+

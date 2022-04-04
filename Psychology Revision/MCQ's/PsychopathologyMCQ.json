@@ -1,0 +1,33 @@
+[
+    {
+        "question": "Which of the following is a cognitive characteristic of OCD:",
+        "options": ["Irrational behaviour", "Compulsions", "High levels of anxiety"],
+        "answer": 0,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Cognitive behavioural therapy:",
+        "options": ["Can only be used in group situations", "Allows the client some control over the therapy", "Has many side effects"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which definition of abnormality does this statement correspond to ‘behaviour which does not fit the rules of expected behaviour’:",
+        "options": ["Failure to function adequately", "Deviation from ideal mental health", "Statistical infrequency"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which of the following is an example of Jahoda’s criteria for ideal mental health:",
+        "options": ["Dependence on others", "Lack of inhibition", "Environmental mastery"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+    {
+        "question": "Which statement best describes the deviation from ideal mental health definition of abnormality:",
+        "options": ["Not following the standards set by society", "Behaviour that interferes with everyday life", "Not being able to resist stress"],
+        "answer": 2,
+        "marksAwarded": 1
+     },
+]
+
