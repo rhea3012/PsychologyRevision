@@ -198,7 +198,7 @@ All multiple choice questions will be automatically marked. For the harder quest
 					}) {
 						
 //Links Continue Button To Next Page
-						NavigationLink(destination: SecondView(researchMCQ: [])) {
+						NavigationLink(destination: SecondView()) {
 							Text("Continue")
 						}
 						

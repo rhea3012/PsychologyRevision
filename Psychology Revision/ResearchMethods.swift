@@ -7,7 +7,7 @@
 
 import Foundation
 
-var questions: [Question] = load("ResearchMCQ.json")
+var ResearchMCQ: [Question] = load("ResearchMCQ.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

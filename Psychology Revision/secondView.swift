@@ -8,9 +8,6 @@
 
 import SwiftUI
 struct SecondView: View {
-
-let researchMCQ: [Question]
-    
     
 //Creating Variables for Revision Topics
     @State private var setOptionOne = false
@@ -21,6 +18,16 @@ let researchMCQ: [Question]
     
     let button = ["Confirm Answer"]
     @State public var buttonConfirm = [Int?]()
+    
+//Ensures One Option Is Selected Before Moving On
+    private var allOptions: [Bool] {
+       [setOptionOne, setOptionTwo, setOptionThree]}
+    
+    private var oneOption: Bool {
+        allOptions.contains { $0 }}
+    
+    private var isQuestionValid: Bool {
+    allOptions.filter { $0 }.count == 1 }
     
 //User Home Page View
             var body: some View {
@@ -34,11 +41,11 @@ let researchMCQ: [Question]
 //Multiple Choice Question Appears
 //Used Group{} to Prevent Argument Error
         Group {
-            Text(researchMCQ[questionIndex].question)
-                .padding(.top, 20)
-                .padding(.trailing, 5)
+            VStack {
+            Text(ResearchMCQ[questionIndex].question)
+                .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
+            }
         
-        Spacer()
         Spacer()
         Spacer()
         
@@ -49,15 +56,15 @@ let researchMCQ: [Question]
 
 //Shows User MCQ Options
             VStack {
-                Toggle(researchMCQ[questionIndex].options[0], isOn: OptionOne)
+                Toggle(ResearchMCQ[questionIndex].options[0], isOn: OptionOne)
                     .toggleStyle(.button)
                     .tint(Color(red: 0.8, green: 0.8, blue: 0.8))
                     .foregroundColor(Color("Black-White"))
-                Toggle(researchMCQ[questionIndex].options[1], isOn: OptionTwo)
+                Toggle(ResearchMCQ[questionIndex].options[1], isOn: OptionTwo)
                     .toggleStyle(.button)
                     .tint(Color(red: 0.8, green: 0.8, blue: 0.8))
                     .foregroundColor(Color("Black-White"))
-                Toggle(researchMCQ[questionIndex].options[2], isOn: OptionThree)
+                Toggle(ResearchMCQ[questionIndex].options[2], isOn: OptionThree)
                     .toggleStyle(.button)
                     .tint(Color(red: 0.8, green: 0.8, blue: 0.8))
                     .foregroundColor(Color("Black-White"))
@@ -71,26 +78,25 @@ let researchMCQ: [Question]
                     HStack(spacing: 15) {
                     ForEach(0..<button.count, id: \.self) {button in
                         Button {
-                            buttonConfirm[questionIndex] = button
 
-                            // Make sure the index doesn't go beyond the array size
-                            if researchMCQ.count > questionIndex + 1 {
+// Make sure the index doesn't go beyond the array size
+                            if ResearchMCQ.count > questionIndex + 1 {
                                 questionIndex += 1
                             }
                         } label: {
-                            Text("Confirm Answer")
-                        }
+                            Text("Confirm Answer")}
                                 
                         .padding(.vertical, 12.5)
                         .padding(.horizontal, 120)
                         .foregroundColor(.white)
                         .foregroundStyle(.background)
-                        .background(2 == button ? Color.primary: Color.secondary)
                         .clipShape(Capsule())
+                        .background(2 == button ? Color.primary: Color.secondary)
                         
+//'Confirm Answer' Button is Disabled if User Has Not Selected An Option
+                        .clipShape(Capsule()).disabled(!isQuestionValid)
+
                         
-                    }
-                    
                     
             }
         }
@@ -100,20 +106,19 @@ let researchMCQ: [Question]
        .navigationTitle("Research Methods Year 1 & 2")
        .navigationBarBackButtonHidden(true)
        .navigationBarTitleDisplayMode(.inline)
-       
                 
             }
     
 }
 
             
-
-
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView(researchMCQ: [])
+        SecondView()
 
     }
 
 }
-    
+}
+
+
