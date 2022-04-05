@@ -8,18 +8,14 @@
 
 import SwiftUI
 
-let Questions = ResearchMethods()
+//let Questions = ResearchMethods()
 
 struct secondView: View {
     var body: some View {
-        
-
-        Text(Questions)
-        
-        
-        
-        }
+        //Text(Questions)
+        Text("blah")
     }
+}
 
 
 struct secondView_Previews: PreviewProvider {

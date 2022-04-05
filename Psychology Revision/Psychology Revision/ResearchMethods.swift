@@ -7,24 +7,17 @@
 //
 
 import Foundation
-func ResearchMethods (){
-let file = "RMQuestions.txt"
-    
-var RMQuestions = ""
- 
-//if you get access to the directory
-if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
- 
-    //prepare file url
-    let fileURL = dir.appendingPathComponent(file)
- 
-    do {
-        RMQuestions = try String(contentsOf: fileURL, encoding: .utf8)
-    }
-    catch {/* handle if there are any errors */}
+
+enum QuestionPackError: Error {
+    case invalidURL
 }
- 
-    print(RMQuestions)
 
-
+func readQuestionPack() throws -> QuestionPack {
+    
+    guard let url = Bundle.main.url(forResource: "questions", withExtension: "json") else {
+        throw QuestionPackError.invalidURL
     }
+    
+    let data = try Data(contentsOf: url)
+    return try JSONDecoder().decode(QuestionPack.self, from: data)
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8790FD27ED072E001F0C94 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C8790FC27ED072E001F0C94 /* questions.json */; };
+		0C87910027ED07DD001F0C94 /* QuestionPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8790FF27ED07DD001F0C94 /* QuestionPack.swift */; };
+		0C87910227ED07ED001F0C94 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C87910127ED07ED001F0C94 /* Question.swift */; };
 		7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A645E2127E9EE44005C65C9 /* secondView.swift */; };
 		7A9E83E827D0D1DD004E1395 /* Psychology_RevisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */; };
 		7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E83E927D0D1DD004E1395 /* HomePage.swift */; };
@@ -16,7 +19,6 @@
 		7A9E840327D0D1DD004E1395 /* Psychology_RevisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */; };
 		7A9E840527D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */; };
 		7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE006B527E0D4F300567275 /* ResearchMethods.swift */; };
-		7AE006B827E0DE4D00567275 /* RMQuestions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7AE006B727E0DE4D00567275 /* RMQuestions.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8790FC27ED072E001F0C94 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		0C8790FF27ED07DD001F0C94 /* QuestionPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPack.swift; sourceTree = "<group>"; };
+		0C87910127ED07ED001F0C94 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		7A645E2127E9EE44005C65C9 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
 		7A9E83E427D0D1DD004E1395 /* Psychology Revision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychology Revision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionApp.swift; sourceTree = "<group>"; };
@@ -49,7 +54,6 @@
 		7A9E840227D0D1DD004E1395 /* Psychology_RevisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITests.swift; sourceTree = "<group>"; };
 		7A9E840427D0D1DD004E1395 /* Psychology_RevisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychology_RevisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7AE006B527E0D4F300567275 /* ResearchMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchMethods.swift; sourceTree = "<group>"; };
-		7AE006B727E0DE4D00567275 /* RMQuestions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RMQuestions.txt; path = ../../RMQuestions.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C8790FE27ED07C9001F0C94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C8790FF27ED07DD001F0C94 /* QuestionPack.swift */,
+				0C87910127ED07ED001F0C94 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7A9E83DB27D0D1DD004E1395 = {
 			isa = PBXGroup;
 			children = (
@@ -100,13 +113,14 @@
 		7A9E83E627D0D1DD004E1395 /* Psychology Revision */ = {
 			isa = PBXGroup;
 			children = (
+				0C8790FE27ED07C9001F0C94 /* Models */,
 				7A9E83E727D0D1DD004E1395 /* Psychology_RevisionApp.swift */,
 				7A9E83E927D0D1DD004E1395 /* HomePage.swift */,
 				7A645E2127E9EE44005C65C9 /* secondView.swift */,
 				7AE006B527E0D4F300567275 /* ResearchMethods.swift */,
-				7AE006B727E0DE4D00567275 /* RMQuestions.txt */,
 				7A9E83EB27D0D1DD004E1395 /* Assets.xcassets */,
 				7A9E83ED27D0D1DD004E1395 /* Preview Content */,
+				0C8790FC27ED072E001F0C94 /* questions.json */,
 			);
 			path = "Psychology Revision";
 			sourceTree = "<group>";
@@ -241,7 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE006B827E0DE4D00567275 /* RMQuestions.txt in Resources */,
+				0C8790FD27ED072E001F0C94 /* questions.json in Resources */,
 				7A9E83EF27D0D1DD004E1395 /* Preview Assets.xcassets in Resources */,
 				7A9E83EC27D0D1DD004E1395 /* Assets.xcassets in Resources */,
 			);
@@ -271,7 +285,9 @@
 				7A9E83EA27D0D1DD004E1395 /* HomePage.swift in Sources */,
 				7AE006B627E0D4F300567275 /* ResearchMethods.swift in Sources */,
 				7A645E2227E9EE44005C65C9 /* secondView.swift in Sources */,
+				0C87910227ED07ED001F0C94 /* Question.swift in Sources */,
 				7A9E83E827D0D1DD004E1395 /* Psychology_RevisionApp.swift in Sources */,
+				0C87910027ED07DD001F0C94 /* QuestionPack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
