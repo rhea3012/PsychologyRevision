@@ -18,7 +18,7 @@ struct ContentView: View {
 	@State private var setIssuesandDebates = false
 	@State private var setSchizophrenia = false
 	@State private var setResearchMethods = false
-	@State private var oneClicked = false
+//	@State private var oneClicked = false
 	
 //Creating Buttons for Number of Questions
 			let buttons = ["10", "20", "30", "40", "50"]
@@ -83,40 +83,60 @@ All multiple choice questions will be automatically marked. For the harder quest
 					.padding(.bottom, 10.0)
 			}
 			
+//Ensures Only One Topic Can Be Selected At Once
+				let setMemory = Binding<Bool>(get: { self.setMemory }, set: { self.setMemory = $0; self.setSocialInfluence = false; self.setApproaches = false; self.setPsychopathology = false; self.setBiopsychology = false; self.setAttachment = false; self.setIssuesandDebates = false; self.setSchizophrenia = false; self.setResearchMethods = false })
+				
+				let setSocialInfluence = Binding<Bool>(get: { self.setSocialInfluence }, set: { self.setMemory = false; self.setSocialInfluence = $0; self.setApproaches = false; self.setPsychopathology = false; self.setBiopsychology = false; self.setAttachment = false; self.setIssuesandDebates = false; self.setSchizophrenia = false; self.setResearchMethods = false })
+				
+				let setApproaches = Binding<Bool>(get: { self.setApproaches }, set: { self.setMemory = false; self.setSocialInfluence = false; self.setApproaches = $0; self.setPsychopathology = false; self.setBiopsychology = false; self.setAttachment = false; self.setIssuesandDebates = false; self.setSchizophrenia = false; self.setResearchMethods = false })
+				
+				let setPsychopathology = Binding<Bool>(get: { self.setPsychopathology }, set: { self.setMemory = false; self.setSocialInfluence = false; self.setApproaches = false; self.setPsychopathology = $0; self.setBiopsychology = false; self.setAttachment = false; self.setIssuesandDebates = false; self.setSchizophrenia = false; self.setResearchMethods = false })
+				
+				let setBiopsychology = Binding<Bool>(get: { self.setBiopsychology }, set: { self.setMemory = false; self.setSocialInfluence = false; self.setApproaches = false; self.setPsychopathology = false; self.setBiopsychology = $0; self.setAttachment = false; self.setIssuesandDebates = false; self.setSchizophrenia = false; self.setResearchMethods = false })
+				
+				let setAttachment = Binding<Bool>(get: { self.setAttachment }, set: { self.setMemory = false; self.setSocialInfluence = false; self.setApproaches = false; self.setPsychopathology = false; self.setBiopsychology = false; self.setAttachment = $0; self.setIssuesandDebates = false; self.setSchizophrenia = false; self.setResearchMethods = false })
+				
+				let setIssuesandDebates = Binding<Bool>(get: { self.setIssuesandDebates }, set: { self.setMemory = false; self.setSocialInfluence = false; self.setApproaches = false; self.setPsychopathology = false; self.setBiopsychology = false; self.setAttachment = false; self.setIssuesandDebates = $0; self.setSchizophrenia = false; self.setResearchMethods = false })
+				
+				let setSchizophrenia = Binding<Bool>(get: { self.setSchizophrenia }, set: { self.setMemory = false; self.setSocialInfluence = false; self.setApproaches = false; self.setPsychopathology = false; self.setBiopsychology = false; self.setAttachment = false; self.setIssuesandDebates = false; self.setSchizophrenia = $0; self.setResearchMethods = false })
+				
+				let setResearchMethods = Binding<Bool>(get: { self.setResearchMethods }, set: { self.setMemory = false; self.setSocialInfluence = false; self.setApproaches = false; self.setPsychopathology = false; self.setBiopsychology = false; self.setAttachment = false; self.setIssuesandDebates = false; self.setSchizophrenia = false; self.setResearchMethods = $0 })
+				
+				
 //Toggles for Topics and Vertical Stacks
 //Used Group{} to Prevent Argument Error
 				Group{
 					VStack(alignment: .leading, spacing: 5) {
-				Toggle("Memory",isOn: $setMemory)
+				Toggle("Memory",isOn: setMemory)
 					.toggleStyle(.button)
 					.tint(Color(red: 0.902, green: 0.755, blue: 0.161))
-				Toggle("Approaches",isOn: $setApproaches)
+				Toggle("Approaches",isOn: setApproaches)
 					.toggleStyle(.button)
 					.tint(Color(red: 0.945, green: 0.442, blue: 0.022))
-				Toggle("Biopsychology",isOn: $setBiopsychology)
+				Toggle("Biopsychology",isOn: setBiopsychology)
 					.toggleStyle(.button)
 					.tint(Color(red: 0.817, green: 0.065, blue: 0.287))
 					
-				Toggle("Issues & Debates",isOn: $setIssuesandDebates)
+				Toggle("Issues & Debates",isOn: setIssuesandDebates)
 					.toggleStyle(.button)
 					.tint(Color(red: 0.399, green: 0.06, blue: 0.947))
-				Toggle("Research Methods Year 1 & 2",isOn: $setResearchMethods)
+				Toggle("Research Methods Year 1 & 2",isOn: setResearchMethods)
 					.toggleStyle(.button)
 						.tint(Color(red: 0.105, green: 0.561, blue: 0.896))}
 					.padding(.leading, -135.0)
 					.padding(.top, -10)
 					
 			VStack(alignment: .leading, spacing: 5) {
-				Toggle("Social Influence",isOn: $setSocialInfluence)
+				Toggle("Social Influence",isOn: setSocialInfluence)
 					.toggleStyle(.button)
 					.tint(Color(red: 0.902, green: 0.755, blue: 0.17))
-				Toggle("Psychopathology",isOn: $setPsychopathology)
+				Toggle("Psychopathology",isOn: setPsychopathology)
 					.toggleStyle(.button)
 					.tint(Color(red: 0.945, green: 0.442, blue: 0.022))
-				Toggle("Attachment",isOn: $setAttachment)
+				Toggle("Attachment",isOn: setAttachment)
 					.toggleStyle(.button)
 					.tint(Color(red: 0.817, green: 0.065, blue: 0.287))
-				Toggle("Schizophrenia",isOn: $setSchizophrenia)
+				Toggle("Schizophrenia",isOn: setSchizophrenia)
 					.toggleStyle(.button)
 				.tint(Color(red: 0.394, green: 0.061, blue: 0.943))}
 					.padding(.top, -192)
@@ -210,7 +230,6 @@ All multiple choice questions will be automatically marked. For the harder quest
 						
 //'Continue' Button is Disabled if User Has Not Selected Values
 						.clipShape(Capsule())}}.disabled(!isFormValid)
-				
 				
 			}
 			

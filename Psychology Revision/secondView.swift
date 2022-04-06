@@ -19,15 +19,11 @@ struct SecondView: View {
     let button = ["Confirm Answer"]
     @State public var buttonConfirm = [Int?]()
     
-//Ensures One Option Is Selected Before Moving On
     private var allOptions: [Bool] {
        [setOptionOne, setOptionTwo, setOptionThree]}
-    
-    private var oneOption: Bool {
-        allOptions.contains { $0 }}
-    
+
     private var isQuestionValid: Bool {
-    allOptions.filter { $0 }.count == 1 }
+        !allOptions.filter{ $0 }.isEmpty}
     
 //User Home Page View
             var body: some View {
@@ -42,9 +38,9 @@ struct SecondView: View {
 //Used Group{} to Prevent Argument Error
         Group {
             VStack {
-            Text(ResearchMCQ[questionIndex].question)
-                .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
-            }
+                        Text(ResearchMCQ[questionIndex].question)
+                            .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
+                        }
         
         Spacer()
         Spacer()
@@ -58,14 +54,17 @@ struct SecondView: View {
             VStack {
                 Toggle(ResearchMCQ[questionIndex].options[0], isOn: OptionOne)
                     .toggleStyle(.button)
+                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
                     .tint(Color(red: 0.8, green: 0.8, blue: 0.8))
                     .foregroundColor(Color("Black-White"))
                 Toggle(ResearchMCQ[questionIndex].options[1], isOn: OptionTwo)
                     .toggleStyle(.button)
+                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
                     .tint(Color(red: 0.8, green: 0.8, blue: 0.8))
                     .foregroundColor(Color("Black-White"))
                 Toggle(ResearchMCQ[questionIndex].options[2], isOn: OptionThree)
                     .toggleStyle(.button)
+                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
                     .tint(Color(red: 0.8, green: 0.8, blue: 0.8))
                     .foregroundColor(Color("Black-White"))
                      }
@@ -90,13 +89,10 @@ struct SecondView: View {
                         .padding(.horizontal, 120)
                         .foregroundColor(.white)
                         .foregroundStyle(.background)
-                        .clipShape(Capsule())
                         .background(2 == button ? Color.primary: Color.secondary)
-                        
-//'Confirm Answer' Button is Disabled if User Has Not Selected An Option
                         .clipShape(Capsule()).disabled(!isQuestionValid)
-
                         
+                    }
                     
             }
         }
@@ -106,12 +102,10 @@ struct SecondView: View {
        .navigationTitle("Research Methods Year 1 & 2")
        .navigationBarBackButtonHidden(true)
        .navigationBarTitleDisplayMode(.inline)
-                
+       
             }
-    
 }
 
-            
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
         SecondView()
@@ -119,6 +113,3 @@ struct SecondView_Previews: PreviewProvider {
     }
 
 }
-}
-
-
